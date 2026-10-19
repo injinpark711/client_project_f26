@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Included new font style from Google fonts based on Typography styles from UM Brand Office-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Engaged Learning Resources | UMSI</title>
-
 </head>
 <body>
     <header>
-  <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <div class="skip"><a href = "#main">Skip to Main Content</a></div>
+        <img class="logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "prep.html">Preparing for Your Experience</a></li>
+                <li><a href = "prep.html" aria-current="page">Preparing for Your Experience</a></li>
                 <li><a href = "start.html">Starting Your Experience</a></li>
                 <li><a href = "ending.html">Ending the Experience</a></li>
             </ul>
         </nav>
     <h1>Preparing for Your Experience</h1>
     </header>
-    <main id="main">
+    <main class = "container" id="main">
     <section>
       <h2>Launch Your Engaged Learning Journey</h2>
       <p>
@@ -53,44 +56,32 @@
     <p>Explore resources to be well-prepared for your upcoming experience.</p>
     <img src="images/MCOMMONS-StudyingForFallFinals2024-1.jpg" alt="A student reads a book while standing between shelves in the Library.">
     
-    <article>
-    <h3><a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot/">Social Identity Snapshot</a></h3>
+    <article class = "content-section">
+    <h3>Social Identity Snapshot</h3>
     <p>Diagnostic tool to reflect on self-awareness and positionality before entering community contexts.</p>
+    <a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot/">View Social Identity Snapshot</a>
     </article>
 
-    <article>
-    <h3><a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn">"Check Yourself" Community Engagement Checklist</a></h3>
+    <article class = "content-section">
+    <h3>"Check Yourself" Community Engagement Checklist</h3>
     <p>Quick audit for personal assumptions and ethical readiness.</p>
+    <a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn">Visit "Check Yourself" Community Engagement Checklist</a>
     </article>
 
-     <article>
-      <h3><a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing">IAP2 Spectrum of Public Participation</a></h3>
+     <article class = "content-section">
+      <h3>IAP2 Spectrum of Public Participation</h3>
       <p>Framework for understanding levels of community involvement and decision-making power.</p>
+      <a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing">Visit IAP2 Spectrum of Public Participation</a>
     </article>
   </section>
-  
-   <section>
-    <h2>About the Engaged Learning Office</h2>
-    <p>The Engaged Learning Office works with partners across industries and sectors, from technology companies to grassroots nonprofits and cultural heritage institutions, to provide project-based opportunities for UMSI students.</p>
-    <p>Its mission is to facilitate transformational engaged learning experiences and enable innovative, sustainable, and mutually beneficial information solutions for local and global communities.</p>
-  </section>
-  <aside>
-    <h2>Stay Connected with ELO</h2>
-    <p>Get updates about ELO programs, workshops, events, and opportunities through the weekly newsletter.</p>
-    <div>
-       <a href="https://umsi.info/elo-newsletter"> Sign up for the ELO newsletter</a>
-    </div>
-    <p>Questions? Email<a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu </a>.</p>
-  </aside>
-        <!-- Content taken & modified from UMGPT with the prompt, "Write me a webpage of intro content to help meet the following requirements - this is for the home page": and then pasted in the client objectives & project requirements"
-        UMGPT. (2026). UMGPT ( GPT-5.6 Sol September 7th version) [Large language model]. -->
     </main>
+    
     <footer>
-        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
+        <p class ="footer_title">University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p class="copyright">&copy; 2026 Regents of the University of Michigan</p>
     </footer>
 </body>
 </html>

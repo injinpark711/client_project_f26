@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Included new font style from Google fonts based on Typography styles from UM Brand Office-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Engaged Learning Resources | UMSI</title>
-
 </head>
 <body>
-
     <header>
-  <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+  <div class="skip"><a href = "#main">Skip to Main Content</a></div>
+        <img class="logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "prep.html">Preparing for Your Experience</a></li>
                 <li><a href = "start.html">Starting Your Experience</a></li>
-                <li><a href = "ending.html">Ending the Experience</a></li>
+                <li><a href = "ending.html" aria-current="page">Ending the Experience</a></li>
             </ul>
         </nav>
     <h1>Ending the Experience</h1>
-
     </header>
-    <main id="main">
+
+    <main class = "container" id="main">
     <section>
       <h2>Completing, Reflecting, and Translating Your Impact</h2>
       <p>
@@ -57,40 +59,27 @@
     <img src="images/UMSI_CareerFair2020_07.jpg" alt="Students in a conference room in the Michigan League after a meeting.">
     <p>Explore resources to end your project with confidence.</p>
     
-    <article>
-    <h3><a href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link">Project Scoping Handout & Terms</a></h3>
+    <article class="content-section">
+    <h3>Project Scoping Handout & Terms</h3>
     <p>Re-evaluate final deliverables against original project commitments.</p>
+    <a href="https://docs.google.com/document/d/1TrEDolwmOIlXgYgAP9VvlOGoYOwFfe6KxzZOgZSVYVw/edit?usp=drive_link">Visit Project Scoping Handout & Terms</a>
     </article>
 
-    <article>
-    <h3><a href="https://ginsberg.umich.edu/article/campus-community-partnerships-toolkit">Ginsberg Center Student-Client Partnership Toolkit</a></h3>
+    <article class="content-section">
+    <h3>Ginsberg Center Student-Client Partnership Toolkit</a></h3>
     <p>Best practices for respectful closure with community organizations.</p>
+    <a href="https://ginsberg.umich.edu/article/campus-community-partnerships-toolkit">Visit Ginsberg Center Student-Client Partnership Toolkit</a>
     </article>
 
    </section>
-  
-   <section>
-    <h2>About the Engaged Learning Office</h2>
-    <p>The Engaged Learning Office works with partners across industries and sectors, from technology companies to grassroots nonprofits and cultural heritage institutions, to provide project-based opportunities for UMSI students.</p>
-    <p>Its mission is to facilitate transformational engaged learning experiences and enable innovative, sustainable, and mutually beneficial information solutions for local and global communities.</p>
-  </section>
-  <aside>
-    <h2>Stay Connected with ELO</h2>
-    <p>Get updates about ELO programs, workshops, events, and opportunities through the weekly newsletter.</p>
-    <div>
-       <a href="https://umsi.info/elo-newsletter"> Sign up for the ELO newsletter</a>
-    </div>
-    <p>Questions? Email<a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu </a>.</p>
-  </aside>
-        <!-- Content taken & modified from UMGPT with the prompt, "Write me a webpage of intro content to help meet the following requirements - this is for the home page": and then pasted in the client objectives & project requirements"
-        UMGPT. (2026). UMGPT ( GPT-5.6 Sol September 7th version) [Large language model]. -->
-    </main>
+</main>
+    
     <footer>
-        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
+        <p class ="footer_title">University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
       <address>
         <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
       </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
+      <p class="copyright">&copy; 2026 Regents of the University of Michigan</p>
     </footer>
 </body>
 </html>
